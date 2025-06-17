@@ -1,48 +1,46 @@
 # 🧠 Crypto Intelligence
 
-**Crypto Intelligence** là một hệ thống trợ lý giao dịch AI giúp người dùng đánh giá xu hướng giá Bitcoin (BTC) theo thời gian thực, thông qua sự kết hợp giữa phân tích kỹ thuật, chỉ số tâm lý thị trường và mô hình học sâu.
-
-Giao diện này là phần frontend của đồ án tốt nghiệp, được xây dựng bằng **Next.js 14**, **Tailwind CSS**, và bộ giao diện **shadcn/ui**, triển khai theo kiến trúc App Router và hỗ trợ server rendering.
+**Crypto Intelligence** là nền tảng phân tích xu hướng thị trường tiền điện tử theo thời gian thực, kết hợp giữa phương pháp **rule-based** truyền thống và **mô hình học sâu (LSTM)** để hỗ trợ ra quyết định giao dịch. Giao diện web trực quan giúp nhà đầu tư dễ dàng theo dõi tín hiệu mua/bán trên các tài sản số hàng đầu như **Bitcoin (BTC)**, **Ethereum (ETH)**, **Solana (SOL)** và **Ripple (XRP)**.
 
 ---
 
-## 🚀 Tính năng chính
+## 🚀 Tính năng nổi bật
 
-- 📊 Tổng hợp dữ liệu thị trường crypto: giá, chỉ báo kỹ thuật, chỉ số Fear & Greed
-- 🤖 Trực quan hóa kết quả dự đoán từ mô hình AI (Transformer)
-- 🔔 Hiển thị tín hiệu giao dịch với mức confidence khác nhau
-- 📈 Tích hợp biểu đồ TradingView và tín hiệu theo thời gian thực (WebSocket)
-- 📬 Trang liên hệ và giới thiệu đồ án (About)
-
----
-
-## 🖥️ Công nghệ sử dụng
-
-- **Next.js 14** (App Router, Server Components)
-- **Tailwind CSS** + **shadcn/ui**
-- **TypeScript**
-- **Radix UI** (qua `shadcn/ui`)
-- **TradingView Widget**
-- **WebSocket** (hiển thị dữ liệu realtime)
-- **Hosted on Vercel**
+- 🟢🔴 Hiển thị tín hiệu mua/bán bằng biểu tượng trực quan trên biểu đồ giá theo thời gian thực  
+- 📊 Đánh giá xác suất thành công của tín hiệu bằng mô hình LSTM hồi quy  
+- 🧠 Phân tích mẫu hình giá kinh điển như Double Top/Double Bottom bằng thuật toán rule-based  
+- 🔔 Cảnh báo xu hướng ngắn hạn với mức độ confidence dựa trên kết quả dự đoán AI  
+- 💡 Hỗ trợ đa tài sản: BTC, ETH, SOL, XRP – mở rộng linh hoạt trong tương lai  
+- 🧩 Tích hợp biểu đồ TradingView và cập nhật dữ liệu giá thời gian thực qua WebSocket  
 
 ---
 
-## ⚙️ Cài đặt & Chạy local
+## 🧪 Công nghệ sử dụng
 
-### Yêu cầu
+- **Next.js 14** (App Router, Server Components)  
+- **Tailwind CSS** + **shadcn/ui**  
+- **TypeScript**  
+- **WebSocket** (cập nhật realtime tín hiệu và giá)  
+- **TradingView Widget** (nhúng biểu đồ tương tác)  
+- **Kết nối backend AI / rule-based qua API hoặc WebSocket**
 
-- Node.js >= 18.x
-- npm >= 9.x
+---
 
-### Các bước thực hiện
+## ⚙️ Cài đặt & chạy local
+
+### Yêu cầu:
+
+- Node.js >= 18.x  
+- npm >= 9.x  
+
+### Thao tác:
 
 ```bash
-# 1. Clone dự án
-git clone https://github.com/your-username/crypto-intelligence-frontend.git
-cd crypto-intelligence-frontend
+# 1. Clone project
+git clone https://github.com/Nguyenchitrai62/FE_Crypto_Intelligence
+cd FE_Crypto_Intelligence
 
-# 2. Cài thư viện phụ thuộc
+# 2. Cài đặt thư viện
 npm install
 
 # 3. Chạy ứng dụng
