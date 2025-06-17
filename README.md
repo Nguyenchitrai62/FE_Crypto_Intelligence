@@ -45,3 +45,14 @@ npm install
 
 # 3. Chạy ứng dụng
 npm run dev
+```
+
+---
+
+## 🧩 Các thành phần liên quan
+
+- ⚙️ **BE Worker – Xử lý tín hiệu & AI dự đoán (rule-based + LSTM)**  
+  👉 [https://github.com/Nguyenchitrai62/BE_Worker](https://github.com/Nguyenchitrai62/BE_Worker)
+
+- 🔧 **BE Web – API và Notification Service**  
+  👉 [https://github.com/Nguyenchitrai62/BE_WEB_Crypto](https://github.com/Nguyenchitrai62/BE_WEB_Crypto)
